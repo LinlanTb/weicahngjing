@@ -1,0 +1,249 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	height:100%;
+	font-size:100px;
+}
+body{
+	height:100%;
+}
+.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.swiper-wrapper .swiper-slide{
+	width:100%;
+	height:100%;
+	background:url(../img/bj.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+.backg{
+	animation: changbig 2s 0.25s;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index: 100;
+}
+.back{
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index: 100;
+}
+@keyframes changbig{
+	0%{
+		width:0;
+		height:0;
+		top:50%;
+		left:50%;
+	}
+	100%{
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+	}
+}
+#text{
+	position: absolute;
+	width:3.5rem;
+	height:2rem;
+	font-size:0.3rem;
+	color:#940d14;
+	top:3.4rem;
+	left:1.5rem;
+	text-align: center;
+}
+.feidie{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.4rem;
+    z-index: 13;
+}
+#text i{
+	line-height:0.5rem;
+	font-size:0.4rem;
+}
+#text p{
+	line-height:0.95rem;
+	font-size:0.6rem;
+}
+.bgh2{
+	width:4rem;
+	height:1.6rem;
+	position:absolute;
+	top:2rem;
+	left:1.25rem;
+	z-index: 12;
+}
+.cen{
+	width:3.6rem;
+	height:3rem;
+	position:absolute;
+	top:3rem;
+	left:1.5rem;
+}
+.bgh1{
+	width:4rem;
+	height:1.6rem;
+	position:absolute;
+	top:5.2rem;
+	left:1.25rem;
+	z-index: 12;
+}
+.tr,.tl,.br,.bl{
+	width:1rem;
+	height:1rem;
+	position:absolute;
+}
+.tl{
+	top:1rem;
+	left:0.4rem;
+}
+.tr{
+	top:1rem;
+	right:0.4rem;
+	
+}
+.br{
+	bottom:2.5rem;
+	right:-0.1rem;
+}
+.bl{
+	bottom:2.5rem;
+	left:-0.1rem;
+}
+.yezil,.yezir{
+	width:1rem;
+	height:1.6rem;
+	position:absolute;
+	bottom:1.3rem;
+	z-index: 13;
+}
+.yezil{
+	left:1.3rem;
+	transform: rotate(-30deg);
+}
+.yezir{
+	right:1.3rem;
+	transform: rotateY(180deg) rotateZ(-30deg);
+}
+.username{
+	width: 3rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 2.2rem;
+    font-size: 0.4rem;
+    color: #940D14;
+    line-height:0.75rem
+    text-align:center;
+}
+.toup{
+	width:0.4rem;
+	height:1.2rem;
+	position: absolute;
+	bottom:0.4rem;
+	left:3rem;
+}
+#music{
+	width: 0.8rem;
+    height: 0.8rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 0.3rem;
+    border-radius: 100%;
+    border: 0.01rem solid #fff;
+    z-index: 999;
+}
+#music img{
+	width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+}
+#wedtxt{
+	margin:1.5rem; auto;
+	font-size:0.24rem;
+	color:#940D14;
+	text-align: center;
+	line-height:0.4rem;
+	
+}
+#project{
+	background:url(../img/sbg.jpg) no-repeat 0 center;
+	background-size:cover;
+}
+.sfd{
+	width:100%;
+	height:30%;
+	position: absolute;
+	top:0;left:0;
+	z-index: 111;
+}
+
+.pertxt{
+	width:80%;
+	font-size:0.2rem;
+	color:#ed5eaf;
+	position:absolute;
+	top:5rem;
+	left:1rem;
+	text-align: center;
+}
+.pertxt p{
+	margin-top:0.2rem;
+}
+.pertxt i{
+	display: block;
+}
+#three{
+	background:url(../img/tbg.jpg);
+	background: cover;
+}
+.meihua{
+	width:3rem;
+	
+}
+.tim{
+	width:1.6rem;
+	height:3rem;
+	position:absolute;
+	bottom:0.5rem;
+	left:0;
+}
+.date,.datetime,.adress,.area{
+	font-size:0.3rem;
+	color:#ef4ea9;
+	position:absolute;
+	left:1.4rem;
+}
+.date{
+	bottom:2.8rem;
+}
+.datetime{
+	bottom:2.1rem;
+}
+.adress{
+	bottom:1.4rem;
+}
+.area{
+	bottom:0.7rem;
+}
+.pic,.pic1{
+	width:2.5rem;
+	height:2.5rem;
+	position: absolute;
+	top:3rem;
+	border-radius:100%;
+}
+.pic{
+	left:0.5rem;
+}
+.pic1{
+	right:0.5rem;
+}
